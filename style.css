@@ -1,3 +1,9 @@
+header,section{
+  text-align: center;
+}
+
+
+
 header{
     border-bottom: 1px solid black;
   }
@@ -9,16 +15,24 @@ header{
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 10px;
+    text-align: center;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+  button:active{
+    background-color: white;
+    color: black;
   }
